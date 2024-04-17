@@ -1,0 +1,466 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 100vw;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.container .head{
+    width: 100%;
+    height: 40px;
+    background-color: purple;
+    color: #fff;
+}
+.container p{
+    font-size: xx-small;
+}
+.container .head p{
+    font-size: x-small;
+    height: 5px;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+.image_container{
+    width: 100%;
+} 
+.image_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    position: absolute;
+    top: 5%;
+    right:3% ;
+    width: 100%;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    justify-content: first baseline;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 27px;
+    font-size: x-small;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    transition: 0.4s case-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+.navbar ul .logo img{
+    width:150px;
+}
+ul button{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar ul button{
+    color: #fff;
+    width:80px; 
+     height: 30px; 
+    font-size:x-small;
+    border-radius: 15px;
+    position: absolute;
+    right: 16%;
+border-color: #fff;
+    background-color: transparent;
+      transform: translateY(50%)
+}
+.section1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.section1{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.section1 h1{
+    font-family: "Roboto", sans-serif;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #fff;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+.section1 .bt{
+    width: 180px;
+    height: 25px;
+    border: none;
+    border-radius:10px ;
+    color: #ff7200;
+   
+}
+.section1 div{
+    display: flex;
+    justify-content: space-around;
+}
+.section1 div .bl{
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
+.section1 .bl:hover{
+    background-color: #fff;
+}
+.section1 .bl{
+    font-size: x-small;
+    position: absolute;
+    left: 15%;
+    border-color: #fff;
+
+}
+.section1 .bt:hover{
+    background-color: black;
+}
+.section1 .pr{
+    font-size: x-small;
+    width: 100px;
+    padding-top: px;
+    border-radius: 20px;
+    background-color: #ff7200;
+    color: #fff;
+    border: none;
+    position: absolute;
+    right: -20%;
+}
+
+.frame{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(232, 228, 228);
+}
+.frames{
+    position: absolute;
+    top: 95%;
+    left: 10%;
+}
+.frames img{
+    width: 320px;
+    height: 130px;
+    padding-left: 50px;
+}
+
+.frames{
+    width: 1050px;
+    background-color: #fff;
+}
+ ul li a:hover{
+    color: #ff7200;
+}
+
+.section2{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+.section2 .lady{
+    width: 450px;
+    padding-right: 10px;
+    padding-top: 200px;
+}
+.section2 .lady .w{
+    font-size: xx-small;
+    width: 120px;
+    height: 20px;
+    border-radius: 20px;
+    color: #ff7200;
+    background-color: #f2e6dd;
+    border: none;
+}
+.section2 .lady h2{
+    padding-top: 15px;
+    font-style: oblique;
+    color: rgb(101, 27, 101);
+}
+.section2 .lady p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.section2 .lady .sm{
+    font-size: x-small;
+    width: 100px;
+    height: 20px;
+    background-color: purple;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+}
+.section2 .lady{
+    width: 300px;
+}
+.eclipse{
+    position: absolute;
+    top: 250%;
+    left: 40%;
+}
+.section2 .lady1 img{
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    top:180% ;
+    left:17% ;
+}
+.frame3{
+    width: 155px;
+    height: auto;
+    padding: 15px;
+    font-size: smaller;
+    background-color:white;
+}
+.frame3{
+    position: absolute;
+    top: 260%;
+    left: 22%;
+}
+ .frame3 h2{
+    font-size: medium;
+    padding-bottom: 6px;
+}
+.frame3 h4{
+    font-size:xx-small;
+    color: purple;
+    padding-bottom: 5px;
+}
+.frame p{
+    padding-bottom: 6px;
+}
+
+section2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 80px;
+    background-color: rgb(232, 228, 235);
+}
+section2 .history{
+    width: 50%;
+    padding-right: 70px;
+    padding-left: 100px;
+}
+section2 .history .sm1{
+    font-size: xx-small;
+    width: 40px;
+    height: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color:rgba(74, 6, 74, 0.887) ;
+}
+section2 .history .sm2{
+    font-size: xx-small;
+    width: 40px;
+    height: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color:rgba(74, 6, 74, 0.887) ;
+}
+section2 .history .sm3{
+    font-size: xx-small;
+    width: 40px;
+    height: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color:rgba(74, 6, 74, 0.887) ;
+}
+section2 .history .sm4{
+    font-size: xx-small;
+    width: 40px;
+    height: 15px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color:rgba(74, 6, 74, 0.887) ;
+}
+section2 .history .his1 h2{
+    font-size: medium;
+    color: rgb(101, 27, 101);
+    padding-top: 10px;
+}
+section2 .history .his2 h2{
+    font-size: medium;
+    color: rgb(101, 27, 101);
+    padding-top: 10px;
+}
+section2 .history .his3 h2{
+    font-size: medium;
+    color: rgb(101, 27, 101);
+    padding-top: 10px;
+}
+section2 .history .his4 h2{
+    font-size: medium;
+    color: rgb(101, 27, 101);
+    padding-top: 10px;
+}
+ section2 .history .his1 p {
+    border-bottom: 20px;
+}
+section2 .kids{
+    width: 50%;
+    padding-left: 70;
+    padding-right: 100px;
+}
+section2 .kids .sm{
+    font-size: xx-small;
+    width: 110px;
+    height: 18px;
+    border-radius: 20px;
+    border: none;
+    color: #ff7200;
+    background-color: #f4e8dd;
+    padding-bottom: 10px;
+}
+section2 .kids .jt{
+    font-size: xx-small;
+    width: 110px;
+    height: 18px;
+    border-radius: 20px;
+    border: none;
+    color:white;
+    background-color:rgba(74, 6, 74, 0.887);
+}
+section2 .kids h1{
+    font-style: oblique;
+    color: rgb(101, 27, 101);
+    padding-bottom: 10px;
+}
+section2 .kids p{
+    padding-bottom: 8px;
+}
+
+section3{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    padding-top: 100px;
+    justify-content: space-around;
+}
+section3 .seven{
+    width: 450px;
+    padding-right: 10px;
+}
+section3 .pics .kids img{
+    width: 300px;
+}
+section3 .pics{
+    display: flex;
+}
+.section3{
+    background-color: rgb(208, 208, 236);
+    width: 100%;
+    height: 160px;
+}
+section3 .seven{
+    width: 50%;
+    padding-left: 70;
+    padding-right: 100px;
+}
+section3 .seven .sm{
+    font-size: xx-small;
+    width: 110px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    color: #ff7200;
+    background-color: #f4e8dd;
+    /* padding-bottom: 10px; */
+ }
+section3 .seven .jt1{
+    font-size: xx-small;
+    width: 110px;
+    height: 18px;
+    border-radius: 20px;
+    border: none;
+    color:white;
+    background-color:rgba(74, 6, 74, 0.887);
+}
+section3 .seven h2{
+    font-style: oblique;
+    color: rgb(101, 27, 101);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+section3 .seven p{
+    padding-bottom: 8px;
+} 
+section4{
+    width: 100%;
+    height: auto;
+    padding-top: 2000;
+}
+
+ /* section4 .man{
+    display: flex;
+} */
+section4 p1{
+    padding-top:100 px;
+    padding: 500px;
+
+}
+section4 h2{
+    padding-left: 450;
+    padding-top: 60;
+    padding-bottom: 90px;
+}
+section4 .man .frame4{
+    width: 160px;
+    height: 130px;
+    padding-top: 50px;
+    padding-left: 15px;
+    font-size: smaller;
+    background-color:rgb(113, 35, 113);
+    color: #fff;
+}
+section4 .man h3{
+    color: #ff7200;
+}
+section4 .man img{
+    position: absolute;
+    top: 2950;
+    left: 18;
+    width: 120px;
+}
+
+section5{
+    display: flex;
+}
+footer{
+    background-color: black;
+} 
+
